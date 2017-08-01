@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		658E55FA1E1B41CA00F60DA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658E55F91E1B41CA00F60DA1 /* AppDelegate.swift */; };
+		658E55FC1E1B41CA00F60DA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658E55FB1E1B41CA00F60DA1 /* ViewController.swift */; };
+		658E55FE1E1B41CA00F60DA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 658E55FD1E1B41CA00F60DA1 /* Assets.xcassets */; };
+		658E56011E1B41CA00F60DA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 658E55FF1E1B41CA00F60DA1 /* Main.storyboard */; };
+		65A58EF01E1CC78E00007AED /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 65A58EEF1E1CC78E00007AED /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		658E55F61E1B41CA00F60DA1 /* Seal2Imag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seal2Imag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		658E55F91E1B41CA00F60DA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		658E55FB1E1B41CA00F60DA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		658E55FD1E1B41CA00F60DA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		658E56001E1B41CA00F60DA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		658E56021E1B41CA00F60DA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65A58EEF1E1CC78E00007AED /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		658E55F31E1B41CA00F60DA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		658E55ED1E1B41CA00F60DA1 = {
+			isa = PBXGroup;
+			children = (
+				65A58EEF1E1CC78E00007AED /* README.md */,
+				658E55F81E1B41CA00F60DA1 /* Seal2Imag */,
+				658E55F71E1B41CA00F60DA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		658E55F71E1B41CA00F60DA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				658E55F61E1B41CA00F60DA1 /* Seal2Imag.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		658E55F81E1B41CA00F60DA1 /* Seal2Imag */ = {
+			isa = PBXGroup;
+			children = (
+				658E55F91E1B41CA00F60DA1 /* AppDelegate.swift */,
+				658E55FB1E1B41CA00F60DA1 /* ViewController.swift */,
+				658E55FD1E1B41CA00F60DA1 /* Assets.xcassets */,
+				658E55FF1E1B41CA00F60DA1 /* Main.storyboard */,
+				658E56021E1B41CA00F60DA1 /* Info.plist */,
+			);
+			path = Seal2Imag;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		658E55F51E1B41CA00F60DA1 /* Seal2Imag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 658E56051E1B41CA00F60DA1 /* Build configuration list for PBXNativeTarget "Seal2Imag" */;
+			buildPhases = (
+				658E55F21E1B41CA00F60DA1 /* Sources */,
+				658E55F31E1B41CA00F60DA1 /* Frameworks */,
+				658E55F41E1B41CA00F60DA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Seal2Imag;
+			productName = Seal2Imag;
+			productReference = 658E55F61E1B41CA00F60DA1 /* Seal2Imag.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		658E55EE1E1B41CA00F60DA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Kosei Himeno";
+				TargetAttributes = {
+					658E55F51E1B41CA00F60DA1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SZ5C7W5J2N;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 658E55F11E1B41CA00F60DA1 /* Build configuration list for PBXProject "Seal2Imag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 658E55ED1E1B41CA00F60DA1;
+			productRefGroup = 658E55F71E1B41CA00F60DA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				658E55F51E1B41CA00F60DA1 /* Seal2Imag */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		658E55F41E1B41CA00F60DA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658E55FE1E1B41CA00F60DA1 /* Assets.xcassets in Resources */,
+				658E56011E1B41CA00F60DA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		658E55F21E1B41CA00F60DA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658E55FC1E1B41CA00F60DA1 /* ViewController.swift in Sources */,
+				65A58EF01E1CC78E00007AED /* README.md in Sources */,
+				658E55FA1E1B41CA00F60DA1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		658E55FF1E1B41CA00F60DA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				658E56001E1B41CA00F60DA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		658E56031E1B41CA00F60DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		658E56041E1B41CA00F60DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		658E56061E1B41CA00F60DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SZ5C7W5J2N;
+				INFOPLIST_FILE = Seal2Imag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = himenoglyph.Seal2Imag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		658E56071E1B41CA00F60DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SZ5C7W5J2N;
+				INFOPLIST_FILE = Seal2Imag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = himenoglyph.Seal2Imag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		658E55F11E1B41CA00F60DA1 /* Build configuration list for PBXProject "Seal2Imag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				658E56031E1B41CA00F60DA1 /* Debug */,
+				658E56041E1B41CA00F60DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		658E56051E1B41CA00F60DA1 /* Build configuration list for PBXNativeTarget "Seal2Imag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				658E56061E1B41CA00F60DA1 /* Debug */,
+				658E56071E1B41CA00F60DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 658E55EE1E1B41CA00F60DA1 /* Project object */;
+}
